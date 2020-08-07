@@ -263,6 +263,11 @@ namespace HM
             return;
          event_name = _T("OnClientLogon");
          break;
+      case EventOnClientValidatePassword:
+         if (!has_on_client_validate_password_)
+            return;
+         event_name = _T("OnClientValidatePassword");
+         break;
       case EventCustom:
          break;
       default:
