@@ -69,6 +69,7 @@ namespace HM
       bool has_on_smtpdata_;
       bool has_on_helo_;
       bool has_on_client_logon_;
+      bool has_on_client_validate_password_;
 
       String script_contents_;
       String script_extension_;
