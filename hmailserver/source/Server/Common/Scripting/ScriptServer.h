@@ -29,7 +29,8 @@ namespace HM
          EventOnExternalAccountDownload = 1011,
          EventOnSMTPData = 1012,
          EventOnHELO = 1013,
-         EventOnClientLogon = 1014
+         EventOnClientLogon = 1014,
+         EventOnClientValidatePassword = 1015
       };
 
       ScriptServer(void);
